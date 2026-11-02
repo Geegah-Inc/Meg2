@@ -3,7 +3,7 @@
 Tkinter GUI to acquire, display and record images from the Geegah MEG2 ultrasonic imager (XEM7305), and to simulate the
 transmit pulse and the echoes of a layered chip.
 
-![Acquire tab](docs/acquire_tab.png)
+![Acquire tab](acquire_tab.png)
 
 ## Files
 
