@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# imager drivers and firmware: keep them out of a public repo unless you are allowed to share them
+fpga.py
+j_fp_vco.py
+*.bit
+
+# recordings and local settings
+*.dat
+*.tif
+*.npy

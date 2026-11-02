@@ -1,0 +1,15 @@
+# Required
+
+install FrontPanelUSB-DriverOnly-5.3.6 first. this is to communicate with OPAL KELLY interface for MEG2. 
+
+numpy
+Pillow
+matplotlib        # colormaps only; without it every colormap falls back to grey
+
+# Optional (uncomment what you need)
+# opencv-python           # "Generate video" (first choice)
+# imageio imageio-ffmpeg  # "Generate video" (second choice; also used by meg2_video_gui.py)
+# napari[all]             # the "Napari" button of the 3D view
+
+
+pip install numpy Pillow matplotlib opencv-python imageio imageio-ffmpeg "napari[all]"
